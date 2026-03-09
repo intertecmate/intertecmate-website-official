@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us | Intertechmate</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav>
+<div class="logo">
+<a href="index.html">
+<img src="assets/logo.png" alt="Intertechmate Logo">
+</a>
+</div>
+
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" style="height:60vh;">
+<h1>Let’s Grow Your Business</h1>
+<p>Book a free consultation with our experts</p>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="section contact-section">
+
+<div class="contact-container">
+
+<div class="contact-info">
+<h2>Get In Touch</h2>
+<p>We’d love to hear about your project and help you scale.</p>
+
+<div class="info-item">
+<strong>Email:</strong><br>
+intertecmate@gmail.com
+</div>
+
+<div class="info-item">
+<strong>Phone:</strong><br><br>
+
+ <strong>India:</strong><br>
+<a href="tel:+917401471819">+91 74014 71819</a>
+<br><br>
+
+ <strong>United Kingdom:</strong><br>
+<a href="tel:+447344595044">+44 7344 595044</a>
+
+</div>
+
+
+</div>
+
+<div class="contact-form-wrapper">
+
+<form class="contact-form" action="backend/contact.php" method="POST">
+
+<input type="text" name="name" placeholder="Full Name" required>
+
+<input type="email" name="email" placeholder="Email Address" required>
+
+<input type="text" name="phone" placeholder="Phone Number">
+
+<select name="service" required>
+<option value="">Select Service</option>
+<option>SEO</option>
+<option>Paid Ads</option>
+<option>Social Media Marketing</option>
+<option>Website Development</option>
+<option>Branding</option>
+</select>
+
+<textarea name="message" rows="6" placeholder="Tell us about your project..." required></textarea>
+
+<button type="submit">Request Free Strategy Call</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+<p style="text-align:center; padding:20px; background:#2D0A3D; color:white;">
+© 2026 Intertechmate | Digital Marketing Agency
+</p>
+</footer>
+
+</body>
+</html>
